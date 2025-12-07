@@ -1,0 +1,13 @@
+{% extends 'main.html' %}
+{% block content %}
+<center>
+    <h1>this is History page</h1>
+    <a href="{% url 'restore_all' %}">Restore All</a>
+    <a href="{% url 'delete_all' %}">Delete All</a>
+    {% for i in data %}
+        <h2>{{i}}</h2>
+        <a href="{% url 'restore' i.id %}">Restore</a>
+        <a href="{% url 'del_hist' i.id %}">Delete</a>
+    {% endfor %}
+</center>
+{% endblock content %}

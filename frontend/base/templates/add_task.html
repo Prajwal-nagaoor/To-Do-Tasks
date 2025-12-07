@@ -1,0 +1,14 @@
+{% extends 'main.html' %}
+{% block content %}
+<center>
+    <h1>Add Task Here</h1>
+    <form action="" method="POST">
+        {% csrf_token %}
+        <label for="">Title</label>
+        <input type="text" name="title" id=""><br>
+        <label for="">desc</label>
+        <input type="text" name="desc" id=""><br>
+        <input type="submit">
+    </form>
+</center>
+{% endblock content %}

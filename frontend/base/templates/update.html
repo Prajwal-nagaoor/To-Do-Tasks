@@ -1,0 +1,14 @@
+{% extends 'main.html' %}
+{% block content %}
+<center>
+    <h1>Update Task Here</h1>
+    <form action="" method="POST">
+        {% csrf_token %}
+        <label for="">Title</label>
+        <input type="text" name="title" id="" value="{{data.title}}"><br>
+        <label for="">desc</label>
+        <input type="text" name="desc" id="" value="{{data.desc}}"><br>
+        <input type="submit">
+    </form>
+</center>
+{% endblock content %}

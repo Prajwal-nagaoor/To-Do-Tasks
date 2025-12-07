@@ -1,0 +1,12 @@
+{% extends 'main.html' %}
+{% block content %}
+<center>
+    <h1>Completed Tasks</h1>
+    {% for i in data %}
+        <h2>{{i}}</h2>
+        <a href="">Details</a>
+        <a href="{% url 'completed_task' i.id %}">Not Completed</a>
+        <a href="{% url 'delete' i.id %}">Delete</a>
+    {% endfor %}
+</center>
+{% endblock content %}
