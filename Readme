@@ -47,3 +47,14 @@ Responsive UI using Bootstrap
 Bootstrap
 
 JavaScript (Fetch / AJAX)
+
+🧠 Project Architecture & Implementation
+
+Django Models
+Designed models to store task information such as task title, completion status, and timestamps.
+
+REST APIs
+Implemented CRUD operations using Django REST Framework. APIs follow RESTful standards, enabling clean communication between frontend and backend.
+
+Frontend Integration
+Integrated REST APIs with the frontend using JavaScript Fetch/AJAX to perform asynchronous operations and improve user experience.
