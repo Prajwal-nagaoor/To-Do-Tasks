@@ -10,3 +10,25 @@ The backend is built using Django REST Framework, which provides structured and 
 These APIs are consumed by the frontend using JavaScript (Fetch/AJAX) to ensure smooth and asynchronous operations without reloading the page.
 
 This project demonstrates a clear separation between frontend and backend, following modern full-stack development practices.
+
+🛠️ Technologies Used
+
+Backend
+
+Python
+
+Django
+
+Django REST Framework
+
+SQLite Database
+
+Frontend
+
+HTML5
+
+CSS3
+
+Bootstrap
+
+JavaScript (Fetch / AJAX)
