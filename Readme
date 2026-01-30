@@ -1,3 +1,12 @@
 📝 To-Do Application (Django + REST API)
 
-A full-stack To-Do List web application developed using Django and Django REST Framework (DRF) that allows users to efficiently manage daily tasks through a clean, responsive, and interactive interface.
+A full-stack To-Do List web application developed using Django and Django REST Framework (DRF) that allows users to 
+efficiently manage daily tasks through a clean, responsive, and interactive interface.
+
+🚀 Project Overview
+
+The To-Do Application enables users to add, view, update, and delete tasks seamlessly. 
+The backend is built using Django REST Framework, which provides structured and scalable REST APIs. 
+These APIs are consumed by the frontend using JavaScript (Fetch/AJAX) to ensure smooth and asynchronous operations without reloading the page.
+
+This project demonstrates a clear separation between frontend and backend, following modern full-stack development practices.
