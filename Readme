@@ -79,3 +79,14 @@ todo_project/
 ├── db.sqlite3
 ├── manage.py
 
+🎯 Learning Outcomes
+
+Built RESTful APIs using Django REST Framework
+
+Integrated backend APIs with frontend using AJAX
+
+Implemented full CRUD functionality
+
+Improved understanding of MVC architecture
+
+Gained hands-on experience in full-stack development
