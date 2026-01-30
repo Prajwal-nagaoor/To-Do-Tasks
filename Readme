@@ -57,4 +57,25 @@ REST APIs
 Implemented CRUD operations using Django REST Framework. APIs follow RESTful standards, enabling clean communication between frontend and backend.
 
 Frontend Integration
-Integrated REST APIs with the frontend using JavaScript Fetch/AJAX to perform asynchronous operations and improve user experience.
+Integrated REST APIs with the frontend using JavaScript Fetch/AJAX to perform asynchronous operations and improve user experience.\
+
+Project Structure 
+
+todo_project/
+│
+├── todo_app/
+│   ├── models.py
+│   ├── views.py
+│   ├── serializers.py
+│   ├── urls.py
+│
+├── templates/
+│   └── index.html
+│
+├── static/
+│   ├── css/
+│   └── js/
+│
+├── db.sqlite3
+├── manage.py
+
